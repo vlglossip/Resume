@@ -1,7 +1,7 @@
 /* RESUME PAGE ----------------------------------------------------------------------------------------------------------------------------------------------- */
 
 header::after{
-    background: url("../images/background-computer1.jpg");
+    background: url("images/background-computer1.jpg");
     content: "";
     height: 300px;
     display: block;
@@ -185,6 +185,36 @@ header p {
     color: white;
     background-color: lightpink;
 }
+
+/* BIT BY BIT SECTION ------------------------------------------------------------------------------- */
+.bit-by-bit {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between buttons */
+    margin: 40px 0; /* Space around the section */
+}
+
+.btn.circle {
+    background-color: pink;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem; /* Adjust font size if needed */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Width for the button */
+    height: 60px; /* Height for the button */
+    border-radius: 50%; /* Makes the button circular */
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.btn.circle:hover {
+    color: white;
+    background-color: lightpink;
+}
+
 /* WORK EXPERIENCE -------------------------------------------------------------------------------------------------------------------------------------------*/
 .work {
     display: grid;
@@ -200,6 +230,10 @@ header p {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.work-item ul li {
+    text-align: left;
 }
 /* EDUCATION -------------------------------------------------------------------------------------------------------------------------------------------------*/
 
